@@ -4,7 +4,7 @@ title: "FrontierZero"
 description: "Technical and non-technical topics concerning cyber security and secure remote access"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.png'
-baseurl: ''
+baseurl: '/blog'
 google_analytics: 'G-HKSE2SJE67'
 #disqus: ''
 mailchimp-list: 'https://frontierzero.us18.list-manage.com/subscribe/post?u=56bb243d7dbab9593b4869365&amp;id=7b7262cd7e'
