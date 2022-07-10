@@ -1,7 +1,7 @@
 # Site
 name: "FrontierZero's Blog"
 title: "FrontierZero"
-description: "Technical and non-technical topics concerning cyber security and secure remote access"
+description: "Technical and non-technical posts concerning cyber security and secure remote access"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.png'
 baseurl: ''
@@ -19,7 +19,7 @@ authors:
     display_name: Mohamed Morsy
     gravatar: e56154546cf4be74e393c62d1ae9f9d4
     email: morsy@frontierzero.io
-    #web: https://www.wowthemes.net
+    web: https://linkedin.com/in/morsyy
     #twitter: https://twitter.com/wowthemesnet
     description: "Founder and Chief Architect"
 # Plugins
