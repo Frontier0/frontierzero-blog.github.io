@@ -331,7 +331,15 @@ span.post-read-more a:hover {
 
 .article-post {
     font-family: charter;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
+    line-height: 1.84;
+    color: rgba(0, 0, 0, .8);
+    letter-spacing: -0.003em;
+}
+
+.article-post b {
+    font-family: charter-bold;
+    font-size: 1.2rem;
     line-height: 1.84;
     color: rgba(0, 0, 0, .8);
     letter-spacing: -0.003em;
@@ -347,7 +355,7 @@ blockquote {
 .article-post p,
 .article-post blockquote {
     font-size: 20px;
-    margin: 0 0 1.5rem 0;
+    margin: 0 0 1.0rem 0;
 }
 
 .featured-image {
@@ -703,7 +711,8 @@ h6 {
 .article-post h5,
 .article-post h6 {
     font-weight: 700;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.2rem;
+    margin-top: 2.5rem;
 }
 
 .article-post img.shadow {
@@ -905,4 +914,9 @@ iframe {
 @font-face {
     font-family: charter; 
     src: url('../../assets/fonts/charter_regular-webfont.woff');
+ }
+
+ @font-face {
+    font-family: charter-bold; 
+    src: url('../../assets/fonts/charter_bold-webfont.woff');
  } 
