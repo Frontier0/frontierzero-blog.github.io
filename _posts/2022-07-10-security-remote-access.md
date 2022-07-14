@@ -8,6 +8,7 @@ image: assets/images/remote-work-worldwide.jpeg
 description: "Remote work is the new normal, but what does that mean for your organization's security?"
 featured: true
 hidden: false
+canonical_url: https://www.frontierzero.io/blog/security-remote-access
 ---
  
 If your company is shifting towards a full or hybrid remote work model, it is time to reevaluate cyber risk and how can the organization remain protected against cyber attacks. Especially if your company has an internal IT infrastructure which is not typically accessible by people outside the physical perimeter.
