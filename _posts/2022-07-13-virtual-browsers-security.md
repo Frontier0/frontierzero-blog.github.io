@@ -6,7 +6,7 @@ categories: [ technical ]
 tags: [security, browser, phishing]
 image: assets/images/browser-security.jpg
 description: "Browser Sandboxing is the next big thing, but how can you utilize it for the security of your organization?"
-featured: true
+featured: false
 hidden: false
 canonical_url: https://www.frontierzero.io/blog/virtual-browsers-security
 ---
