@@ -26,16 +26,20 @@ post_class: post-template
                 <div class="row post-top-meta">
                     <div class="col-xs-12 col-md-3 col-lg-2 text-center text-md-left mb-4 mb-md-0">
                         {% if author.avatar %}
-                        <img class="author-thumb" src="{{site.baseurl}}/{{ author.avatar }}" alt="{{ author.display_name }}">
+                        <img class="author-thumb" src="{{site.baseurl}}/{{ author.avatar }}"
+                            alt="{{ author.display_name }}">
                         {% else %}
-                        <img class="author-thumb" src="https://www.gravatar.com/avatar/{{ author.gravatar }}?s=250&d=mm&r=x"
+                        <img class="author-thumb"
+                            src="https://www.gravatar.com/avatar/{{ author.gravatar }}?s=250&d=mm&r=x"
                             alt="{{ author.display_name }}">
                         {% endif %}
                     </div>
                     <div class="col-xs-12 col-md-9 col-lg-10 text-center text-md-left">
                         <a target="_blank" class="link-dark" href="{{ author.web }}">{{ author.display_name }} </a>
-                        {% if author.twitter %}<a target="_blank" href="{{ author.twitter }}"class="btn follow">Follow</img></a>{% endif %}
-                        {% if author.linkedin %}<a target="_blank" href="{{ author.linkedin }}"><img src="/assets/images/linkedin-logo.svg"></img></a>{% endif %}
+                        {% if author.twitter %}<a target="_blank" href="{{ author.twitter }}"
+                            class="btn follow">Follow</img></a>{% endif %}
+                        {% if author.linkedin %}<a target="_blank" href="{{ author.linkedin }}"><img
+                                src="/assets/images/linkedin-logo.svg"></img></a>{% endif %}
                         <div><span class="author-description">{{ author.description }}</span></div>
                     </div>
                 </div>
@@ -56,11 +60,12 @@ post_class: post-template
             {% if page.image %}
 
             {% if site.lazyimages == "enabled" %}
-            <img class="featured-image img-fluid lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII="
-                data-src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ site.baseurl }}/{{ page.image
+            <img class="featured-image img-fluid lazyimg"
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII="
+                data-src="{% if page.image contains " ://" %}{{ page.image }}{% else %}{{ site.baseurl }}/{{ page.image
                 }}{% endif %}" alt="{{ page.title }}">
             {% else %}
-            <img class="featured-image img-fluid" src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{
+            <img class="featured-image img-fluid" src="{% if page.image contains " ://" %}{{ page.image }}{% else %}{{
                 site.baseurl }}/{{ page.image }}{% endif %}" alt="{{ page.title }}">
             {% endif %}
 
@@ -69,7 +74,7 @@ post_class: post-template
 
             <!-- Post Content -->
             <div class="article-post" font-family="charter">
-                <!-- Toc if any -->
+                <!-- Toc if any
                 {% if page.toc %}
                 {% if page.beforetoc %}
                 <p><em>{{page.beforetoc}}</em></p>
@@ -78,9 +83,16 @@ post_class: post-template
                     <h3 class="font-weight-bold">Summary</h3>
                     {% include toc.html html=content %}
                 </div>
-                {% endif %}
+                {% endif %} -->
                 <!-- End Toc -->
+
+                {% if page.toc %}
+                <h3 class="font-weight-bold">Table of Contents</h3>
+                {{content | toc}}
+                {% else %}
                 {{content}}
+
+                {% endif %}
             </div>
 
             <!-- Rating -->
@@ -93,10 +105,11 @@ post_class: post-template
             <!-- Post Date -->
             <p>
                 <small>
-                    <span class="post-date"><time class="post-date" datetime="{{ page.date | date:"%Y-%m-%d" }}">{{
+                    <span class="post-date"><time class="post-date" datetime="{{ page.date | date:" %Y-%m-%d" }}">{{
                             page.date | date_to_string }}</time></span>
                     {% if page.last_modified_at %}
-                    (Updated: <time datetime="{{ page.last_modified_at | date_to_xmlschema }}" itemprop="dateModified">{{
+                    (Updated: <time datetime="{{ page.last_modified_at | date_to_xmlschema }}"
+                        itemprop="dateModified">{{
                         page.last_modified_at | date: "%b %-d, %Y" }}</time>)
                     {% endif %}
                 </small>
@@ -108,7 +121,7 @@ post_class: post-template
                     {% assign sortedCategories = page.categories | sort %}
                     {% for category in sortedCategories %}
                     <li>
-                        <a class="smoothscroll" href="{{site.baseurl}}/categories#{{ category | replace: " ","-" }}">{{
+                        <a class="smoothscroll" href="{{site.baseurl}}/categories#{{ category | replace: " "," -" }}">{{
                             category }}</a>
                     </li>
                     {% endfor %}
@@ -122,7 +135,8 @@ post_class: post-template
                     {% assign sortedTags = page.tags | sort %}
                     {% for tag in sortedTags %}
                     <li>
-                        <a class="smoothscroll" href="{{site.baseurl}}/tags#{{ tag | replace: " ","-" }}">#{{ tag }}</a>
+                        <a class="smoothscroll" href="{{site.baseurl}}/tags#{{ tag | replace: " "," -" }}">#{{ tag
+                            }}</a>
                     </li>
                     {% endfor %}
                 </ul>
@@ -136,7 +150,8 @@ post_class: post-template
                     {{page.previous.title}}</a>
                 {% endif %}
                 {% if page.next.url %}
-                <a class="next d-block col-md-6 text-lg-right" href="{{ site.baseurl }}{{page.next.url}}">{{page.next.title}}
+                <a class="next d-block col-md-6 text-lg-right"
+                    href="{{ site.baseurl }}{{page.next.url}}">{{page.next.title}}
                     &raquo; </a>
                 {% endif %}
                 <div class="clearfix"></div>

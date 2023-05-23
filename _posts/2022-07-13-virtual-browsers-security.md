@@ -9,6 +9,7 @@ description: "Browser Sandboxing is the next big thing, but how can you utilize 
 featured: false
 hidden: false
 canonical_url: https://www.frontierzero.io/blog/virtual-browsers-security
+toc: true
 ---
  
 ## What is Phishing?

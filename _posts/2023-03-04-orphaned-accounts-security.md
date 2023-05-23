@@ -9,6 +9,7 @@ description: "Active, yet not-in-use accounts can be inconspicuously dangerous"
 featured: true
 hidden: false
 canonical_url: https://www.frontierzero.io/blog/orphaned-accounts-security
+toc: true
 ---
 
 ## What are Orphaned Accounts?
