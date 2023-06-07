@@ -23,6 +23,14 @@ authors:
     #twitter: https://twitter.com/wowthemesnet
     linkedin: https://linkedin.com/in/morsyy
     description: "Founder and Chief Architect"
+  samir:
+    name: Mahmoud Samir
+    display_name: Mahmoud Samir
+    gravatar: e56154546cf4be74e393c62d1ae9f9d4
+    email: samir@frontierzero.io
+    web: https://www.frontierzero.io/
+    linkedin: https://www.linkedin.com/in/mahmoud-samir-37245b257/
+    description: "Account Executive"
 # Plugins
 plugins:
   - jekyll-paginate
