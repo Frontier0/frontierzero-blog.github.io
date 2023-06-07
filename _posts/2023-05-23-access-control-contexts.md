@@ -6,7 +6,7 @@ categories: [access, control, risk]
 tags: [security, network]
 image: assets/images/access-contexts.jpeg
 description: "Access control is important, but not more than how that access is granted."
-featured: true
+featured: false
 hidden: false
 canonical_url: https://www.frontierzero.io/blog/access-control-contexts
 toc: true
