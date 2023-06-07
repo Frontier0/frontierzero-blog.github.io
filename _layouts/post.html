@@ -74,7 +74,7 @@ post_class: post-template
 
             <!-- Post Content -->
             <div class="article-post" font-family="charter">
-                <!-- Toc if any
+                <!-- Toc if any-->
                 {% if page.toc %}
                 {% if page.beforetoc %}
                 <p><em>{{page.beforetoc}}</em></p>
@@ -83,16 +83,16 @@ post_class: post-template
                     <h3 class="font-weight-bold">Summary</h3>
                     {% include toc.html html=content %}
                 </div>
-                {% endif %} -->
+                {% endif %}
                 <!-- End Toc -->
-
-                {% if page.toc %}
+                {{content}}
+                <!-- {% if page.toc %}
                 <h3 class="font-weight-bold">Table of Contents</h3>
                 {{content | toc}}
                 {% else %}
-                {{content}}
+                
 
-                {% endif %}
+                {% endif %} -->
             </div>
 
             <!-- Rating -->
