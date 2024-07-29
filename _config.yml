@@ -1,7 +1,7 @@
 # Site
 name: "FrontierZero's Blog"
 title: "FrontierZero"
-description: "Technical and non-technical posts concerning cyber security and secure remote access"
+description: "Technical and non-technical posts concerning cloud and SaaS security"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.png'
 baseurl: ''
