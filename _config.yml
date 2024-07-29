@@ -22,7 +22,7 @@ authors:
     web: https://www.frontierzero.io/
     #twitter: https://twitter.com/wowthemesnet
     linkedin: https://linkedin.com/in/morsyy
-    description: "Founder and Chief Architect"
+    description: "Co Founder"
   samir:
     name: Mahmoud Samir
     display_name: Mahmoud Samir
@@ -31,6 +31,17 @@ authors:
     web: https://www.frontierzero.io/
     linkedin: https://www.linkedin.com/in/mahmoud-samir-37245b257/
     description: "Account Executive"
+  amr:
+    name: Amr Shams 
+    display_name: Amr Shams
+    gravatar: 
+    email: amr@frontierzero.io
+    web: https://www.linkedin.com/in/amr-m-shams/
+    linkedin: https://www.linkedin.com/in/amr-m-shams/
+    description: "Cybersecurity Analyst"    
+    
+
+
 # Plugins
 plugins:
   - jekyll-paginate
