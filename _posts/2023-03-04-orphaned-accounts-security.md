@@ -6,7 +6,6 @@ categories: [access, risk ]
 tags: [security, account]
 image: assets/images/employee-credentials.jpg
 description: "Active, yet not-in-use accounts can be inconspicuously dangerous"
-featured: true
 hidden: false
 canonical_url: https://www.frontierzero.io/blog/orphaned-accounts-security
 toc: true

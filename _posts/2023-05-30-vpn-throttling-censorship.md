@@ -6,7 +6,6 @@ categories: [access, control, risk]
 tags: [security, network, vpn, remote, throttling, censorship]
 image: assets/images/slow-traffic-ahead-sign.png
 description: "Discover how to navigate the complexities of VPN restrictions, ensuring the protection of sensitive data and seamless productivity for remote teams"
-featured: true
 hidden: false
 canonical_url: https://www.frontierzero.io/blog/vpn-throttling-remote-work
 toc: true
