@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Why Your Company Insurance May Be Invalid Without 2FA"
+title: "Why Your Company Insurance May Be Invalid Without 2FA"
 author: oskars
 categories: [ authentication, risk, insurance ]
 tags: [2fa, security]
