@@ -7,7 +7,6 @@ tags: [saas management, remote]
 image: assets/images/saas-cloud-applications.jpeg
 description: "Navigate through the complexities of SaaS cloud applications adoption within organizations"
 hidden: false
-featured: true
 canonical_url: https://www.frontierzero.io/blog/saas-cloud-applications
 toc: true
 ---
