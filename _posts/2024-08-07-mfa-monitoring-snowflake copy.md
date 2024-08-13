@@ -7,7 +7,7 @@ tags: [data, security, mfa]
 image: assets/images/mfa-user-login.png
 description: "Highlighting the importance of enforcing MFA across SaaS applications and cloud infrastructures, using a recent breach at Snowflake as a case study"
 hidden: false
-featured: true
+featured: false
 canonical_url: https://www.frontierzero.io/blog/mfa-monitoring-snowflake
 toc: true
 ---
