@@ -7,7 +7,7 @@ tags: [cost, saas]
 image: assets/images/software-cost-utilzation.png
 description: "Highlighting the importance of properly monitor SaaS app utilization to avoid additional costs"
 hidden: false
-featured: true
+featured: false
 canonical_url: https://www.frontierzero.io/blog/top-underutilized-saas
 toc: true
 ---
