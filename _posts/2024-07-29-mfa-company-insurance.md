@@ -7,7 +7,7 @@ tags: [2fa, security]
 image: assets/images/2fa-company-insurance.jpg
 description: "The Importance of 2-Factor Authentication in Protecting Company Insurance"
 hidden: false
-featured: true
+featured: false
 canonical_url: https://www.frontierzero.io/blog/mfa-company-insurance
 toc: true
 ---
