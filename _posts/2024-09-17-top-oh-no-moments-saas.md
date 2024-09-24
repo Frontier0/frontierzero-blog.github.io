@@ -7,7 +7,7 @@ tags: [saas, security]
 image: assets/images/top-oh-no-moments-saas-main.png
 description: ""
 hidden: false
-featured: true
+featured: false
 canonical_url: https://www.frontierzero.io/blog/top-oh-no-moments-saas
 toc: true
 ---
