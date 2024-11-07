@@ -7,7 +7,7 @@ tags: [saas, security]
 image: assets/images/new-shared-responsibility-model-main.png
 description: ""
 hidden: false
-featured: true
+featured: false
 canonical_url: https://www.frontierzero.io/blog/new-shared-responsibility-model
 toc: true
 ---
